@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+
+body {
+    background-color: #E8E2E2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#PasswordInput {
+    border: 2px solid #000;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #5D3891;
+    color: #fff;
+}
+
+
+#ButtonShowHide {
+    padding: 8px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: #F99417;
+    color: #000000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#ButtonShowHide:hover {
+    scale: 1.1;
+    background-color: #ffac48;
+}
